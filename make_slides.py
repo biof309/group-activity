@@ -17,6 +17,7 @@ def write_file(filename: str, contents: str) -> None:
         >>> write_file(outfile_path, "Test file contents")
         >>> with open(outfile_path) as file: file.read()
         'Test file contents'
+        :type filename: object
     """
     with open(filename, 'w') as f:
         f.write(contents)
@@ -57,6 +58,10 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
+<<<<<<< HEAD
 if __name__ == '__main__':
     pytest.main(sys.argv)
     write_file('revealjs.html', make_slides(target='revealjs'))
+=======
+make_slides(source='martin.md')
+>>>>>>> 931a21cb5af33747bd5f17cd4188df9be3784f0e
