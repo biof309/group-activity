@@ -25,7 +25,7 @@ d = {
     "Hall, Austin": "Fill in interest here",
     "Jackson, Samantha": "Fill in interest here",
     "Jaeger, Catherine": "Fill in interest here",
-    "Kashyap, Anuj": "Fill in interest here",
+    "Kashyap, Anuj": "Going to BIOF309 class",
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "Fill in interest here",
     "Kulam Najmudeen, Magdoom Mohamed": "Fill in interest here",
