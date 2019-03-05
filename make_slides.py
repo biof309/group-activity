@@ -1,6 +1,7 @@
 import sys
 import pytest
 from pypandoc import convert_file
+from pathlib import Path
 
 
 
@@ -17,10 +18,8 @@ def write_file(filename: str, contents: str) -> None:
         >>> write_file(outfile_path, "Test file contents")
         >>> with open(outfile_path) as file: file.read()
         'Test file contents'
-        :type filename: object
     """
-    with open(filename, 'w') as f:
-        f.write(contents)
+    Path(filename).write_text(contents)
 
 
 def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
@@ -53,11 +52,12 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
     """
     if target in ('slidy', 'dzslides', 'revealjs'):
         return convert_file(source, to=target, extra_args=['--self-contained']
-                            if target is not 'revealjs'
-                            else ['-sV', 'revealjs-url=https://revealjs.com'])
+        if target is not 'revealjs'
+        else ['-sV', 'revealjs-url=https://revealjs.com'])
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 if __name__ == '__main__':
     pytest.main(sys.argv)
@@ -65,3 +65,7 @@ if __name__ == '__main__':
 =======
 make_slides(source='martin.md')
 >>>>>>> 931a21cb5af33747bd5f17cd4188df9be3784f0e
+=======
+
+write_file('martin.html', make_slides(source='martin.md'))
+>>>>>>> 17baf7e24e885ea0c422de708409f721de319206
