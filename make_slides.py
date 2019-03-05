@@ -14,6 +14,7 @@ def write_file(filename: str, contents: str) -> None:
         >>> write_file(outfile_path, "Test file contents")
         >>> with open(outfile_path) as file: file.read()
         'Test file contents'
+        :type filename: object
     """
     with open(filename, 'w') as f:
         f.write(contents)
@@ -53,3 +54,5 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
                             else ['-sV', 'revealjs-url=https://revealjs.com'])
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
+
+make_slides(source='martin.md')
