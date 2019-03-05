@@ -47,7 +47,7 @@ d = {
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "epidemiology",
     "Steenackers, Agata": "Fill in interest here",
-    "Szabo, Roman": "Fill in interest here",
+    "Szabo, Roman": "genetics",
     "Tan, Vee": "Fill in interest here",
     "Tiwary, Shweta": "Fill in interest here",
     "Trevino, Melissa": "Fill in interest here",
