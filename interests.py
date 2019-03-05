@@ -7,7 +7,7 @@ d = {
     "Abudi, Shachar": "Fill in interest here",
     "Ajaj, Yasmeen": "Fill in interest here",
     "Ben-Omran, Munder": "Fill in interest here",
-    "Bruno, Melissa": "epidemiology",
+    "Bruno, Melissa": "Epidemiology",
     "Cahill, Eileen": "Fill in interest here",
     "Callies, Katelyn": "Fill in interest here",
     "Cavazos Saldana, Alejandra": "Fill in interest here",
