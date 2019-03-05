@@ -53,3 +53,5 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
                             else ['-sV', 'revealjs-url=https://revealjs.com'])
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
+
+write_file('hayley.html', make_slides(source='Hayley.md'))
