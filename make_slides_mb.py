@@ -2,7 +2,6 @@ from pypandoc import convert_file
 from pathlib import Path
 
 
-
 def write_file(filename: str, contents: str) -> None:
     """Writes contents to a file named filename
 
