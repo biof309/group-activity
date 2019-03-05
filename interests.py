@@ -19,7 +19,7 @@ d = {
     "Farkasova, Helena": "Fill in interest here",
     "Fletcher, Colin": "Fill in interest her0e",
     "Gardner, Danielle": "Fill in interest here",
-    "Geller, Alicia": "Fill in interest here",
+    "Geller, Alicia": "health informatics",
     "Ghosh, Banani": "Fill in interest here",
     "Gupta, Neha": "Fill in interest here",
     "Hall, Austin": "Plant Pathology",
