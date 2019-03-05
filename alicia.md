@@ -2,7 +2,7 @@
 Alicia Geller
 
 # Hobby
-learn programming
+learn programming and sew
 
 # Fun Fact
 I am intermediate in many things. Expert of a few. 
