@@ -3,6 +3,7 @@ import pytest
 from pypandoc import convert_file
 
 
+
 def write_file(filename: str, contents: str) -> None:
     """Writes contents to a file named filename
 
