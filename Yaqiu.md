@@ -21,3 +21,4 @@ population=[10,20,40,50]
 plt.plot(year,population)
 plt.show()
 
+```
