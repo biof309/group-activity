@@ -33,7 +33,7 @@ d = {
     "Lehmann, Michael": "Fill in interest here",
     "Liu, Poching": "Fill in interest here",
     "Lott, Nathaniel": "Fill in interest here",
-    "Magaziner, Samuel": "Fill in interest here",
+    "Magaziner, Samuel": "Fishing, Virology, Genetics, Bacteriology",
     "Mehani, Bharati": "Fill in interest here",
     "Meng, Yiran": "Fill in interest here",
     "Miyazaki, Nanami": "Fill in interest here",
