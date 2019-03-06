@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../For_Class-BIOF309/.idea/For_Class-BIOF309.iml" filepath="$PROJECT_DIR$/../For_Class-BIOF309/.idea/For_Class-BIOF309.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../LearningGeneticAlg/.idea/LearningGeneticAlg.iml" filepath="$PROJECT_DIR$/../LearningGeneticAlg/.idea/LearningGeneticAlg.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/group-activity.iml" filepath="$PROJECT_DIR$/.idea/group-activity.iml" />
     </modules>
   </component>
