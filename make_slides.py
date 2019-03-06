@@ -56,4 +56,5 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
 
-write_file('Sam.html', make_slides(source='Sam.md'))
+
+write_file('Ben.html', make_slides(source='Ben.md'))
