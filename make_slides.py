@@ -10,7 +10,7 @@ def write_file(filename: str, contents: str) -> None:
     Args:
         filename: The name of the target file
         contents: The contents of the target file
-
+´´
     Examples:
         >>> import tempfile
         >>> outfile_path = tempfile.mkstemp()[1]

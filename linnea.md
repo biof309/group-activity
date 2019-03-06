@@ -5,7 +5,7 @@ Linnea Sepe-Forrest
 Cooking
 
 # Fun Fact
-
+I'm excited to learn about jupyter notebooks, and I think that will be fun 
 
 # Programming Background
 I've written tasks in psychopy 
