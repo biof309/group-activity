@@ -24,7 +24,7 @@ d = {
     "Gupta, Neha": "Fill in interest here",
     "Hall, Austin": "Plant Pathology",
     "Jackson, Samantha": "Fill in interest here",
-    "Jaeger, Catherine": "Fill in interest here",
+    "Jaeger, Catherine": "neurobiology",
     "Kashyap, Anuj": "Going to BIOF309 class",
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "Fill in interest here",
