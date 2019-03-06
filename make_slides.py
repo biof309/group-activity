@@ -1,4 +1,5 @@
 from pypandoc import convert_file
+from pathlib import Path
 
 
 def write_file(filename: str, contents: str) -> None:
@@ -15,8 +16,7 @@ def write_file(filename: str, contents: str) -> None:
         >>> with open(outfile_path) as file: file.read()
         'Test file contents'
     """
-    with open(filename, 'w') as f:
-        f.write(contents)
+    Path(filename).write_text(contents)
 
 
 def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
@@ -49,7 +49,10 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
     """
     if target in ('slidy', 'dzslides', 'revealjs'):
         return convert_file(source, to=target, extra_args=['--self-contained']
-                            if target is not 'revealjs'
-                            else ['-sV', 'revealjs-url=https://revealjs.com'])
+        if target is not 'revealjs'
+        else ['-sV', 'revealjs-url=https://revealjs.com'])
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
+
+
+write_file('martin.html', make_slides(source='martin.md'))
