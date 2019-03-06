@@ -43,7 +43,7 @@ d = {
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
-    "Reynolds, Hayley": "Fill in interest here",
+    "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "epidemiology",
     "Steenackers, Agata": "Fill in interest here",
