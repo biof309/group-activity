@@ -5,11 +5,8 @@ Yiran Wang
 Drawing and painting
 
 # Fun Fact
-I speak 4 natural languages 
-- English,
-- Spanish,
-- Polish, and 
-- Russian.
+I speak 2 languages:
+English and Mandarin Chinese
 
 # Programming Background
 I have no prior programming background
