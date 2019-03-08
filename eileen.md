@@ -5,7 +5,7 @@ Eileen Cahill
 Exercising
 
 # Fun Fact
-
+I've gone skydiving in Byron Bay, Australia.
 
 # Programming Background
 I took a C++ class in college.
