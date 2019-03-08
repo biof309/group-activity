@@ -12,5 +12,5 @@ I took a C++ class in college.
 
 # Interesting Python code
 ```python
-
+import turtle
 ```
