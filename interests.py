@@ -2,7 +2,7 @@
 import difflib
 import pathlib
 
-#%% names: interests dictionary
+# %% names: interests dictionary
 d = {
     "Abudi, Shachar": "Fill in interest here",
     "Ajaj, Yasmeen": "Fill in interest here",
@@ -61,24 +61,25 @@ d = {
 }
 
 
-#%% Search dictionary for close matches
+# %% Search dictionary for close matches
 def search_dict(query, dictionary, cutoff=0.8):
     return [
-    (key, value) for key, value
-    in dictionary.items()
-    if value in difflib.get_close_matches(
-           query,
-           dictionary.values(),
-           cutoff=cutoff
-           )
+        (key, value) for key, value
+        in dictionary.items()
+        if value in difflib.get_close_matches(
+            query,
+            dictionary.values(),
+            cutoff=cutoff
+        )
     ]
+
 
 matches = search_dict('epi', d, cutoff=0.15)
 matches
 
-#%% Save dictionary to file
+# %% Save dictionary to file
 pathlib.Path(
     'interested_in_.txt'
 ).write_text('\n'.join(': '.join(x) for x in matches))
 
-#%%
+# %%
