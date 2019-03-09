@@ -74,11 +74,11 @@ def search_dict(query, dictionary, cutoff=0.8):
     ]
 
 matches = search_dict('epi', d, cutoff=0.15)
+matches
 
 #%% Save dictionary to file
 pathlib.Path(
     'interested_in_.txt'
-).write_text('\n'.join(f'{x[0]}: {x[1]}' for x in matches))
-matches
+).write_text('\n'.join(': '.join(x) for x in matches))
 
 #%%
