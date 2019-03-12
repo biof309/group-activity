@@ -1,6 +1,6 @@
 # %% Imports
 import difflib
-import pathl
+import pathlib
 
 # %% names: interests dictionary
 d = {
@@ -34,7 +34,7 @@ d = {
     "Liu, Poching": "Fill in interest here",
     "Lott, Nathaniel": "Fill in interest here",
     "Magaziner, Samuel": "fishing, virology, genetics, genomics, synthetic biology",
-    "Mehani, Bharati": "Fill in interest here",
+    "Mehani, Bharati": "Genomics",
     "Meng, Yiran": "Fill in interest here",
     "Miyazaki, Nanami": "neuroscience",
     "Mondal Laha, Satarupa": "Fill in interest here",
@@ -59,10 +59,9 @@ d = {
     "Zhang, Shu": "gumba",
     "Zhang, Yaqiu": "ski",
 }
-here
 
 # %% Search dictionary for close matches
-def search_dict(query, dictionary, cutoff, 0.08):
+def search_dict(query, dictionary, cutoff= 0.08):
     """Dockstring"""
     return [
         (key, value) for key, value
@@ -75,12 +74,12 @@ def search_dict(query, dictionary, cutoff, 0.08):
     ]
 
 
-matches = search_dict('bio', d, cutoff = 0.8)
+matches = search_dict('omics', d, cutoff = 0.8)
 matches
 
 # %% Save dictionary to file
 pathlib.Path(
-    'interested_in_bio.txt'
+    'interested_in_omics.txt'
 ).write_text('\n'.join(': '.join(x) for x in matches))
 
 # %%
