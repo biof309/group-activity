@@ -18,7 +18,7 @@ d = {
     "Fadl, Benjamin": "Fill in interest here",
     "Farkasova, Helena": "Fill in interest here",
     "Fletcher, Colin": "Fill in interest here",
-    "Gardner, Danielle": "Fill in interest here",
+    "Gardner, Danielle": "Bioengineering",
     "Geller, Alicia": "Fill in interest here",
     "Ghosh, Banani": "Fill in interest here",
     "Gupta, Neha": "Fill in interest here",
