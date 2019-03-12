@@ -5,7 +5,7 @@ Shu Zhang
 Miscellaneous arts & crafts
 
 # Fun Fact
-I used to have pet chickens!
+I used to have pet chickens.
 
 # Programming Background
 Some knowledge of R.
