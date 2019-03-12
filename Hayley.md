@@ -5,7 +5,7 @@ Hayley Reynolds
 Soccer
 
 # Fun Fact
-Boxing is awesome.
+I think bacteriophage are super cool!
 
 # Programming Background
 First adventure into coding/programming
