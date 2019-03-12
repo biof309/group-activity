@@ -1,18 +1,14 @@
 # Name
-Linnea Sepe-Forrest
+Shu Zhang
 
 # Hobby
-Cooking
+Miscellaneous arts & crafts
 
 # Fun Fact
-<<<<<<< HEAD
-I'm from California 
-=======
-I'm excited to learn about jupyter notebooks, and I think that will be fun 
->>>>>>> fc8b08ca35a7833edf178533c3a9e0dae4ee090d
+I used to have pet chickens.
 
 # Programming Background
-I've written tasks in psychopy 
+Some knowledge of R.
 
 # Interesting Python code
 ```python
