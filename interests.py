@@ -44,7 +44,7 @@ d = {
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
     "Reynolds, Hayley": "Fill in interest here",
-    "Sepe-Forrest, Linnea": "Fill in interest here",
+    "Sepe-Forrest, Linnea": "Neuroscience",
     "Skarzynski, Martin": "epidemiology",
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Fill in interest here",

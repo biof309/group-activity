@@ -5,7 +5,7 @@ Linnea Sepe-Forrest
 Cooking
 
 # Fun Fact
-
+I'm from California 
 
 # Programming Background
 I've written tasks in psychopy 
