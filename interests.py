@@ -15,7 +15,7 @@ d = {
     "Deveau, Ciana": "Fill in interest here",
     "Dou, Tongyi": "Fill in interest here",
     "Duarte, Danielle": "Fill in interest here",
-    "Fadl, Benjamin": "Fill in interest here",
+    "Fadl, Benjamin": "Ferret Racing",
     "Farkasova, Helena": "Fill in interest here",
     "Fletcher, Colin": "Fill in interest here",
     "Gardner, Danielle": "Fill in interest here",
