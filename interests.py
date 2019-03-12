@@ -53,7 +53,7 @@ d = {
     "Skarzynski, Martin": "Zumba",
 >>>>>>> fc8b08ca35a7833edf178533c3a9e0dae4ee090d
     "Steenackers, Agata": "Fill in interest here",
-    "Szabo, Roman": "Genetics",
+    "Szabo, Roman": "Photography",
     "Tan, Vee": "Fill in interest here",
     "Tiwary, Shweta": "Fill in interest here",
     "Trevino, Melissa": "Fill in interest here",
