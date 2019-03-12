@@ -49,7 +49,7 @@ d = {
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Fill in interest here",
     "Tan, Vee": "Fill in interest here",
-    "Tiwary, Shweta": "Fill in interest here",
+    "Tiwary, Shweta": "Fill in hereinterest here",
     "Trevino, Melissa": "Fill in interest here",
     "Ullah, Ehsan": "Fill in interest here",
     "Verma, Subhash": "Fill in interest here",
@@ -57,7 +57,7 @@ d = {
     "Wigerblad, Gustaf": "Fill in interest here",
     "Yau, Jessica": "Fill in interest here",
     "Zhang, Shu": "Fill in interest here",
-    "Zhang, Yaqiu": "Fill in interest here",
+    "Zhang, Yaqiu": "Ski ",
 }
 
 
