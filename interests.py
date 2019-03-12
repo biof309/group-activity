@@ -1,3 +1,4 @@
+
 # %% Imports
 import difflib
 import pathlib
@@ -80,12 +81,20 @@ def search_dict(query: str, dictionary: Dict, cutoff: float = 0.5):
     ]
 
 
+<<<<<<< Updated upstream
 matches = search_dict('photo', d, cutoff=0.25)
+=======
+matches = search_dict('neuro', d, cutoff=0.15)
+>>>>>>> Stashed changes
 matches
 
 # %% Save dictionary to file
 pathlib.Path(
+<<<<<<< Updated upstream
     'interested_in_iking.txt'
+=======
+    'interested_in_neuro.txt'
+>>>>>>> Stashed changes
 ).write_text('\n'.join(': '.join(x) for x in matches))
 
 # %%
