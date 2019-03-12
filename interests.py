@@ -54,7 +54,7 @@ d = {
     "Ullah, Ehsan": "Fill in interest here",
     "Verma, Subhash": "Fill in interest here",
     "Wang, Yiran": "structural biology",
-    "Wigerblad, Gustaf": "Fill in interest here",
+    "Wigerblad, Gustaf": "Neutrophils",
     "Yau, Jessica": "Fill in interest here",
     "Zhang, Shu": "Fill in interest here",
     "Zhang, Yaqiu": "ski",
