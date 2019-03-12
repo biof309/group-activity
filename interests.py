@@ -8,7 +8,7 @@ d = {
     "Ajaj, Yasmeen": "Fill in interest here",
     "Ben-Omran, Munder": "Fill in interest here",
     "Bruno, Melissa": "Fill in interest here",
-    "Cahill, Eileen": "outdoors",
+    "Cahill, Eileen": "hiking",
     "Callies, Katelyn": "Fill in interest here",
     "Cavazos Saldana, Alejandra": "Fill in interest here",
     "Cohen, Matan": "Fill in interest here",
@@ -43,15 +43,12 @@ d = {
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
-<<<<<<< HEAD
     "Reynolds, Hayley": "Fill in interest here",
     "Sepe-Forrest, Linnea": "Neuroscience",
     "Skarzynski, Martin": "epidemiology",
-=======
     "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "Zumba",
->>>>>>> fc8b08ca35a7833edf178533c3a9e0dae4ee090d
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Genetics",
     "Tan, Vee": "Fill in interest here",
