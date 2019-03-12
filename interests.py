@@ -23,7 +23,7 @@ d = {
     "Ghosh, Banani": "Fill in interest here",
     "Gupta, Neha": "Fill in interest here",
     "Hall, Austin": "Plant pathology",
-    "Jackson, Samantha": "Fill in interest here",
+    "Jackson, Samantha": "Music",
     "Jaeger, Catherine": "Fill in interest here",
     "Kashyap, Anuj": "Going to BIOF309 class",
     "Kim, Ji Hyun": "Fill in interest here",
