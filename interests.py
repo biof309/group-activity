@@ -14,7 +14,7 @@ d = {
     "Cohen, Matan": "Fill in interest here",
     "Deveau, Ciana": "Neuroscience",
     "Dou, Tongyi": "Fill in interest here",
-    "Duarte, Danielle": "Fill in interest here",
+    "Duarte, Danielle": "Running",
     "Fadl, Benjamin": "Fill in interest here",
     "Farkasova, Helena": "Fill in interest here",
     "Fletcher, Colin": "Fill in interest here",
