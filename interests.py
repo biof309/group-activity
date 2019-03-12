@@ -25,7 +25,7 @@ d = {
     "Hall, Austin": "Plant pathology",
     "Jackson, Samantha": "Music",
     "Jaeger, Catherine": "Fill in interest here",
-    "Kashyap, Anuj": "Going to BIOF309 class",
+    "Kashyap, Anuj": "Yodeling",
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "psychologygit status",
     "Kulam Najmudeen, Magdoom Mohamed": "Fill in interest here",
