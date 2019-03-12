@@ -56,7 +56,7 @@ d = {
     "Wang, Yiran": "structural biology",
     "Wigerblad, Gustaf": "Fill in interest here",
     "Yau, Jessica": "Fill in interest here",
-    "Zhang, Shu": "Fill in interest here",
+    "Zhang, Shu": "sleep",
     "Zhang, Yaqiu": "ski",
 }
 here
