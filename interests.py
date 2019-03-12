@@ -12,7 +12,7 @@ d = {
     "Callies, Katelyn": "Fill in interest here",
     "Cavazos Saldana, Alejandra": "Fill in interest here",
     "Cohen, Matan": "Fill in interest here",
-    "Deveau, Ciana": "Fill in interest here",
+    "Deveau, Ciana": "Neuroscience",
     "Dou, Tongyi": "Fill in interest here",
     "Duarte, Danielle": "Fill in interest here",
     "Fadl, Benjamin": "Fill in interest here",
