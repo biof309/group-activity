@@ -7,10 +7,10 @@ d = {
     "Abudi, Shachar": "Fill in interest here",
     "Ajaj, Yasmeen": "Fill in interest here",
     "Ben-Omran, Munder": "Fill in interest here",
-    "Bruno, Melissa": "Fill in interest here",
+    "Bruno, Melissa": "psychosocial epidemiology",
     "Cahill, Eileen": "Fill in interest here",
     "Callies, Katelyn": "Fill in interest here",
-    "Cavazos Saldana, Alejandra": "Fill in interest here",
+    'Cavazos Saldana, Alejandra': "Fill in interest here",
     "Cohen, Matan": "Fill in interest here",
     "Deveau, Ciana": "Neuroscience",
     "Dou, Tongyi": "Fill in interest here",
@@ -33,19 +33,19 @@ d = {
     "Lehmann, Michael": "Fill in interest here",
     "Liu, Poching": "Fill in interest here",
     "Lott, Nathaniel": "Fill in interest here",
-    "Magaziner, Samuel": "fishing, virology, genetics, genomics, synthetic biology",
+    "Magaziner, Samuel": "Fill in interest here",
     "Mehani, Bharati": "Fill in interest here",
     "Meng, Yiran": "Fill in interest here",
     "Miyazaki, Nanami": "neuroscience",
     "Mondal Laha, Satarupa": "Fill in interest here",
-    "Neureiter, Elizabeth": "Oil painting",
+    "Neureiter, Elizabeth": "Fill in interest here",
     "Nicoli, Elena-Raluca": "Fill in interest here",
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
     "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
-    "Skarzynski, Martin": "epidemiology",
+    "Skarzynski, Martin": "Zumba",
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Genetics",
     "Tan, Vee": "Fill in interest here",
@@ -57,9 +57,9 @@ d = {
     "Wigerblad, Gustaf": "Fill in interest here",
     "Yau, Jessica": "Fill in interest here",
     "Zhang, Shu": "Fill in interest here",
-    "Zhang, Yaqiu": "Fill in interest here",
+    "Zhang, Yaqiu": "ski",
 }
-
+here
 
 # %% Search dictionary for close matches
 def search_dict(query, dictionary, cutoff=0.8):
