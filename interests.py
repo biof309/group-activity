@@ -1,6 +1,6 @@
 # %% Imports
 import difflib
-import pathlib
+import pathl
 
 # %% names: interests dictionary
 d = {
@@ -18,14 +18,14 @@ d = {
     "Fadl, Benjamin": "Fill in interest here",
     "Farkasova, Helena": "Fill in interest here",
     "Fletcher, Colin": "Fill in interest here",
-    "Gardner, Danielle": "Fill in interest here",
-    "Geller, Alicia": "Fill in interest here",
+    "Gardner, Danielle": "Bioengineering",
+    "Geller, Alicia": "bioinformatics",
     "Ghosh, Banani": "Fill in interest here",
     "Gupta, Neha": "Fill in interest here",
     "Hall, Austin": "Plant pathology",
     "Jackson, Samantha": "Music",
-    "Jaeger, Catherine": "Fill in interest here",
-    "Kashyap, Anuj": "Going to BIOF309 class",
+    "Jaeger, Catherine": "neuroepigenetics",
+    "Kashyap, Anuj": "Yodeling",
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "psychologygit status",
     "Kulam Najmudeen, Magdoom Mohamed": "Fill in interest here",
@@ -43,26 +43,27 @@ d = {
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
-    "Reynolds, Hayley": "hiking",
-    "Sepe-Forrest, Linnea": "Fill in interest here",
-    "Skarzynski, Martin": "Zumba",
+    "Reynolds, Hayley": "Fill in interest here",
+    "Sepe-Forrest, Linnea": "Neuroscience",
+    "Skarzynski, Martin": "epidemiology",
     "Steenackers, Agata": "Fill in interest here",
-    "Szabo, Roman": "Genetics",
+    "Szabo, Roman": "Photography",
     "Tan, Vee": "Fill in interest here",
     "Tiwary, Shweta": "Fill in interest here",
     "Trevino, Melissa": "Fill in interest here",
     "Ullah, Ehsan": "Fill in interest here",
     "Verma, Subhash": "Fill in interest here",
     "Wang, Yiran": "structural biology",
-    "Wigerblad, Gustaf": "Fill in interest here",
+    "Wigerblad, Gustaf": "Neutrophils",
     "Yau, Jessica": "Fill in interest here",
-    "Zhang, Shu": "Fill in interest here",
+    "Zhang, Shu": "gumba",
     "Zhang, Yaqiu": "ski",
 }
 here
 
 # %% Search dictionary for close matches
-def search_dict(query, dictionary, cutoff=0.8):
+def search_dict(query, dictionary, cutoff, 0.08):
+    """Dockstring"""
     return [
         (key, value) for key, value
         in dictionary.items()
@@ -74,12 +75,12 @@ def search_dict(query, dictionary, cutoff=0.8):
     ]
 
 
-matches = search_dict('epi', d, cutoff=0.15)
+matches = search_dict('bio', d, cutoff = 0.8)
 matches
 
 # %% Save dictionary to file
 pathlib.Path(
-    'interested_in_.txt'
+    'interested_in_bio.txt'
 ).write_text('\n'.join(': '.join(x) for x in matches))
 
 # %%
