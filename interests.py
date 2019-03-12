@@ -24,7 +24,7 @@ d = {
     "Gupta, Neha": "Fill in interest here",
     "Hall, Austin": "Plant pathology",
     "Jackson, Samantha": "Music",
-    "Jaeger, Catherine": "Fill in interest here",
+    "Jaeger, Catherine": "neuroepigenetics",
     "Kashyap, Anuj": "Yodeling",
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "psychologygit status",
