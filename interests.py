@@ -38,7 +38,7 @@ d = {
     "Meng, Yiran": "Fill in interest here",
     "Miyazaki, Nanami": "neuroscience",
     "Mondal Laha, Satarupa": "Fill in interest here",
-    "Neureiter, Elizabeth": "Fill in interest here",
+    "Neureiter, Elizabeth": "Oil painting",
     "Nicoli, Elena-Raluca": "Sailing",
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
