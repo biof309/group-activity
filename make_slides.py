@@ -1,4 +1,5 @@
-
+import sys
+import pytest
 from pypandoc import convert_file
 from pathlib import Path
 
@@ -56,5 +57,19 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
     else:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+if __name__ == '__main__':
+    pytest.main(sys.argv)
+    write_file('revealjs.html', make_slides(target='revealjs'))
+=======
+make_slides(source='martin.md')
+>>>>>>> 931a21cb5af33747bd5f17cd4188df9be3784f0e
+=======
 
-write_file('Yiran.html', make_slides(source='Yiran.md'))
+<<<<<<< HEAD
+write_file('martin.html', make_slides(source='martin.md'))
+>>>>>>> 17baf7e24e885ea0c422de708409f721de319206
+=======
+write_file('melissa.html', make_slides(source='Melissa.md'))
+>>>>>>> 1922877455922089a2208da9c13523698ca91456
