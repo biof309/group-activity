@@ -48,7 +48,7 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
         '<?xml version="1.0" encoding="utf-8" ?>'
         >>> lines[-4] # fourth to last line
         '<div id="markdown-header" class="titleslide slide section level1"><h1>Markdown header</h1></div>'
-    """
+    """´
     if target in ('slidy', 'dzslides', 'revealjs'):
         return convert_file(source, to=target, extra_args=['--self-contained']
         if target is not 'revealjs'
@@ -57,4 +57,4 @@ def make_slides(source: str = 'slides.md', target: str = 'slidy') -> str:
         raise ValueError(f"{target} is not one of the 3 supported formats.")
 
 
-write_file('Yiran.html', make_slides(source='Yiran.md'))
+write_file('bharati.html', make_slides(source='bharati.md'))
