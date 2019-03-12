@@ -47,7 +47,7 @@ d = {
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "Zumba",
     "Steenackers, Agata": "Fill in interest here",
-    "Szabo, Roman": "Photography",
+    "Szabo, Roman": "Photography, hiking, genetics",
     "Tan, Vee": "Fill in interest here",
     "Tiwary, Shweta": "Fill in interest here",
     "Trevino, Melissa": "Fill in interest here",
@@ -74,7 +74,7 @@ def search_dict(query, dictionary, cutoff=0.8):
     ]
 
 
-matches = search_dict('Gene', d, cutoff=0.25)
+matches = search_dict('photo', d, cutoff=0.25)
 matches
 
 # %% Save dictionary to file
