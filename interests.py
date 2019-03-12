@@ -59,7 +59,7 @@ d = {
     "Zhang, Shu": "Fill in interest here",
     "Zhang, Yaqiu": "ski",
 }
-here
+
 
 # %% Search dictionary for close matches
 def search_dict(query, dictionary, cutoff=0.8):
@@ -74,7 +74,7 @@ def search_dict(query, dictionary, cutoff=0.8):
     ]
 
 
-matches = search_dict('epi', d, cutoff=0.15)
+matches = search_dict('Gene', d, cutoff=0.25)
 matches
 
 # %% Save dictionary to file
