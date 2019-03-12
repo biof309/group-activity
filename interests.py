@@ -62,7 +62,7 @@ d = {
 here
 
 # %% Search dictionary for close matches
-def search_dict(query: str, dictionary: d, cutoff: float = 0.55):
+def search_dict(query, dictionary, cutoff, 0.08):
     """Dockstring"""
     return [
         (key, value) for key, value
@@ -75,7 +75,7 @@ def search_dict(query: str, dictionary: d, cutoff: float = 0.55):
     ]
 
 
-matches = search_dict('bioinformatics', d, cutoff = 0.50)
+matches = search_dict('bio', d, cutoff = 0.8)
 matches
 
 # %% Save dictionary to file
