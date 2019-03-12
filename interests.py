@@ -43,9 +43,15 @@ d = {
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
+<<<<<<< HEAD
+    "Reynolds, Hayley": "Fill in interest here",
+    "Sepe-Forrest, Linnea": "Neuroscience",
+    "Skarzynski, Martin": "epidemiology",
+=======
     "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "Zumba",
+>>>>>>> fc8b08ca35a7833edf178533c3a9e0dae4ee090d
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Photography",
     "Tan, Vee": "Fill in interest here",
