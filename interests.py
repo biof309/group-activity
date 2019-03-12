@@ -57,9 +57,9 @@ d = {
     "Wigerblad, Gustaf": "Fill in interest here",
     "Yau, Jessica": "Fill in interest here",
     "Zhang, Shu": "Fill in interest here",
-    "Zhang, Yaqiu": "Fill in interest here",
+    "Zhang, Yaqiu": "ski",
 }
-
+here
 
 # %% Search dictionary for close matches
 def search_dict(query, dictionary, cutoff=0.8):
