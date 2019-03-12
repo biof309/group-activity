@@ -29,7 +29,7 @@ d = {
     "Kim, Ji Hyun": "Fill in interest here",
     "Kirwan, Stuart": "psychologygit status",
     "Kulam Najmudeen, Magdoom Mohamed": "Fill in interest here",
-    "Lai, Yi Ling": "Fill in interest here",
+    "Lai, Yi Ling (Elaine)": "infectious disease epidemiology, fitness boxing",
     "Lehmann, Michael": "Fill in interest here",
     "Liu, Poching": "Fill in interest here",
     "Lott, Nathaniel": "Fill in interest here",
