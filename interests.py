@@ -2,7 +2,7 @@
 import difflib
 import pathlib
 
-#%% names: interests dictionary
+# %% names: interests dictionary
 d = {
     "Abudi, Shachar": "Fill in interest here",
     "Ajaj, Yasmeen": "Fill in interest here",
@@ -36,18 +36,18 @@ d = {
     "Magaziner, Samuel": "Fill in interest here",
     "Mehani, Bharati": "Fill in interest here",
     "Meng, Yiran": "Fill in interest here",
-    "Miyazaki, Nanami": "Fill in interest here",
+    "Miyazaki, Nanami": "neuroscience",
     "Mondal Laha, Satarupa": "Fill in interest here",
     "Neureiter, Elizabeth": "Fill in interest here",
     "Nicoli, Elena-Raluca": "Fill in interest here",
     "Nie, Zuqin": "Fill in interest here",
     "O'Callaghan, Georgia": "Fill in interest here",
     "Pakhchanian, Haig": "Fill in interest here",
-    "Reynolds, Hayley": "Fill in interest here",
+    "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "epidemiology",
     "Steenackers, Agata": "Fill in interest here",
-    "Szabo, Roman": "Fill in interest here",
+    "Szabo, Roman": "Genetics",
     "Tan, Vee": "Fill in interest here",
     "Tiwary, Shweta": "Fill in interest here",
     "Trevino, Melissa": "Fill in interest here",
@@ -61,24 +61,25 @@ d = {
 }
 
 
-#%% Search dictionary for close matches
+# %% Search dictionary for close matches
 def search_dict(query, dictionary, cutoff=0.8):
     return [
-    (key, value) for key, value
-    in dictionary.items()
-    if value in difflib.get_close_matches(
-           query,
-           dictionary.values(),
-           cutoff=cutoff
-           )
+        (key, value) for key, value
+        in dictionary.items()
+        if value in difflib.get_close_matches(
+            query,
+            dictionary.values(),
+            cutoff=cutoff
+        )
     ]
 
-matches = search_dict('epi', d, cutoff=0.15)
 
-#%% Save dictionary to file
-pathlib.Path(
-    'interested_in_.txt'
-).write_text('\n'.join(f'{x[0]}: {x[1]}' for x in matches))
+matches = search_dict('epi', d, cutoff=0.15)
 matches
 
-#%%
+# %% Save dictionary to file
+pathlib.Path(
+    'interested_in_.txt'
+).write_text('\n'.join(': '.join(x) for x in matches))
+
+# %%
