@@ -48,7 +48,7 @@ d = {
     "Skarzynski, Martin": "epidemiology",
     "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
-    "Skarzynski, Martin": "French",
+    "Skarzynski, Martin": "French music",
     "Steenackers, Agata": "Fill in interest here",
     "Szabo, Roman": "Genetics",
     "Tan, Vee": "Fill in interest here",
