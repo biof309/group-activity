@@ -45,7 +45,7 @@ d = {
     "Pakhchanian, Haig": "Fill in interest here",
     "Reynolds, Hayley": "Fill in interest here",
     "Sepe-Forrest, Linnea": "Neuroscience",
-    "Skarzynski, Martin": "epidemiology",
+    "Skarzynski, Martin": "French",
     "Reynolds, Hayley": "hiking",
     "Sepe-Forrest, Linnea": "Fill in interest here",
     "Skarzynski, Martin": "French music",
