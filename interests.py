@@ -27,7 +27,7 @@ d = {
     "Jaeger, Catherine": "Fill in interest here",
     "Kashyap, Anuj": "Going to BIOF309 class",
     "Kim, Ji Hyun": "Fill in interest here",
-    "Kirwan, Stuart": "psychologygit status",
+    "Kirwan, Stuart": "psychology",
     "Kulam Najmudeen, Magdoom Mohamed": "Fill in interest here",
     "Lai, Yi Ling": "Fill in interest here",
     "Lehmann, Michael": "Fill in interest here",
