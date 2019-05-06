@@ -14,6 +14,6 @@ I have a working knowledge of Vanilla JavaScript, HTML, CSS.
 # Interesting Python code
 ```python
 # get a list of all of the letters in the alphabet 
-import numpy as np
-Z = np.zeros(10)
-print(Z)
+print("hello wolrd!")
+```
+
