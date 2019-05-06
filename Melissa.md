@@ -28,18 +28,45 @@ We aim to leverage existing Surveillance, Epidemiology and End Results (SEER) da
 
 #Steps 1-3 (import and wrangling)
 import pandas as pd
-pd.read_csv('/Users/mbruno2/Documents/neo_colon.csv')
+    pd.read_csv('/Users/mbruno2/Documents/neo_colon.csv')
 
-neocolon.head()
-neocolon.tail()
-neocolon.describe()
+    neocolon.head()
+    neocolon.tail()
+    neocolon.describe()
 
 Creating list of variable names:
-for col in neocolon.columns:
-    print(col)
+
+    for col in neocolon.columns:
+         print(col)
 
 Renaming 'age' variable and viewing observations <18yo
-neocolon.rename(columns={'Age recode with <1 year olds':'Age'}, inplace=True)
-print(neocolon[neocolon['Age']<18])
 
+    neocolon.rename(columns={'Age recode with <1 year olds':'Age'}, inplace=True)
+    print(neocolon[neocolon['Age']<18])
+
+#Step 4: Exploratory Data Analysis (EDA)
+import matplotlib.pyplot as plt
+
+Creating variables for the two outcomes of interest
+
+    sys_surg_seq=neocolon['RX Summ--Systemic Surg Seq']
+    rad_surg_seq=neocolon['Radiation sequence with surgery']
+
+Histogram for Systemic-Surgery Sequence
+
+    plt.hist(sys_surg_seq, bins=8)
+    plt.xlabel('NAACCR code')
+    plt.ylabel('Number of observations')
+    plt.title('Distribution of cases for Systemic Surgery Sequence')
+    plt.show()
+    ![](/Users/mbruno2/Documents/sys_surg_seq.png)
+    
+
+Histogram for Radiation-Surgery Sequence
+
+    plt.hist(rad_surg_seq, bins=8)
+    plt.xlabel('NAACCR code')
+    plt.ylabel('Number of observations')
+    plt.title('Distribution of cases for Radiation Surgery Sequence')
+    plt.show()
 
